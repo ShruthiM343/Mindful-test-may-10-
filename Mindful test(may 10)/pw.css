@@ -1,0 +1,33 @@
+.total{
+    .box{
+        
+        border-style: solid;
+        width:450px;
+        height:200px;
+        margin-top: 200px;
+        margin-left:500px;
+        h1{
+            text-align: center;
+            
+        }
+        input{
+            align-items: center;
+            height:30px;
+            width:370px;
+            margin-left: 30px;
+        }
+        .w{
+            display: flex;
+            flex-direction: row;
+            margin-left: 30px;
+            margin-top:10px;
+            .w1, .w2, .w3{
+                border-style: none;
+                height:9px;
+                width:121px;
+                border-radius: 20px;
+                background-color: rgb(173, 164, 164);
+            }
+        }
+    }
+}
